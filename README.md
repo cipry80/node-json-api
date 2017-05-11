@@ -12,7 +12,7 @@ git clone https://github.com/danielmocan/node-json-api.git
 ```
 npm install
 ```
-
+install all the dependencies
 ```
 npm start
 ```
@@ -31,6 +31,9 @@ DELETE /posts/1
 ### Adding Data
 add it in the db.json file.
 It has to be a valid json type.
+### Grunt usage
+install globally grunt-cli: npm install -g grunt-cli
+run grunt task
 
 **To Dos:**
   * make code cleaner to read
