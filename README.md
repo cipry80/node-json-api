@@ -10,15 +10,14 @@ git clone https://github.com/danielmocan/node-json-api.git
 ```
 **Run project**
 ```
-npm install
-```
-install all the dependencies
-```
 npm start
 ```
 server will listen for requests on port 5000
 
-
+**Install all the dependencies**
+```
+npm install
+```
 ### Routes
 
 ```
