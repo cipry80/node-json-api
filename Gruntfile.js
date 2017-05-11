@@ -21,7 +21,11 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     src: [
-                        'README.md'
+                        'README.md',
+                        'db.json',
+                        'index.js',
+                        'package.json',
+                        'utils.js'
                     ],
                     dest: 'dist/',
                     filter: 'isFile'
